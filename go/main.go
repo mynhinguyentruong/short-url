@@ -107,11 +107,6 @@ func getAlbum(c *gin.Context) {
 	}
 	c.JSON(http.StatusOK, album)
 
-	// if err != nil {
-	// 	c.AbortWithError(http.StatusBadRequest, err)
-	// }
-	// fmt.Printf(rows)
-
 }
 
 func addNewAlbum(c *gin.Context) {
